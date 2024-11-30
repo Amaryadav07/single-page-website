@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Layout with Navigation Bar</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <h1 id="text">Portfolio</h1>
+            
+            <nav class="navbar">
+                <input type="checkbox" id="menu-toggle" />
+                <label for="menu-toggle" class="menu-icon">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </label>
+                <ul class="nav-list">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+            
+            <a href="./Amar Nath.pdf" class="resume-btn" download="My_Resume.pdf">Download Resume</a>
+        </header>
+        
+ <main class="  main home">
+            <section class="intro" id="home">
+                <h2>Welcome!</h2>
+                <p>
+                    I am Amar Nath Yadav, a full-stack Java developer with a strong focus on building scalable, efficient web applications. I specialize in both front-end and back-end development, utilizing technologies like Java, Spring Boot, React, and more. I am passionate about creating innovative solutions to solve real-world problems.
+                </p>
+                
+                
+            </section>
+            <section class="clients" id="clients">
+                <h2> <marquee behavior="alternate" direction="left">Clients I've Worked With </marquee></h2>
+                <p>Throughout my career, I've had the opportunity to collaborate with some great companies and individuals.</p>
+                <div class="client-logos">
+                    <div class="client">
+                        <img src=" https://d1o72l87sylvqg.cloudfront.net/blue-origin/logo-blue-origin-tagline-optimized.svg" alt="Client 1 Logo">
+                        <p><strong >Client 1 -</strong> Provided back-end support for scalable enterprise applications.</p>
+                    </div>
+                    <div class="client">
+                        <img src="https://www.starbucks.in/assets/icon/logo.png" alt="Client 2 Logo">
+                        <p  ><strong>Client 2 -</strong> Developed a custom solution for a dynamic e-commerce platform.</p>
+                    </div>
+                    <div class="client">
+                        <img src="https://cdn.prod.website-files.com/6256688a7a5e476c6dbfec98/666a86ba15ce0cc9f37c4004_Logo%20full.svg" alt="Client 3 Logo">
+                        <p><strong>Client 3 -</strong> Built and maintained cloud-based systems for data management.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <main class="main about">
+            <section class="about-info" id="about">
+                <h2>Who is Amar Nath Yadav?</h2>
+                <p>Amar Nath Yadav is a skilled and passionate full stack Java developer with extensive experience in building robust, scalable, and high-performance applications. With a deep understanding of both front-end and back-end technologies, Amar specializes in developing web applications using the Java programming language and associated frameworks such as Spring Boot, Hibernate, and more.</p>
+
+                <h3>Professional Skills</h3>
+                <br>
+                <ul>
+                    <li><strong>Front-end Development:</strong> Expertise in HTML, CSS, JavaScript, React, and Angular to create responsive and interactive user interfaces.</li>
+                  
+                    <li><strong>Back-end Development:</strong> Strong proficiency in Java, Spring Boot, Hibernate, RESTful APIs, and Microservices architecture.</li>
+                    
+                    <li><strong>Database Management:</strong> Experience with relational databases like MySQL, PostgreSQL, and NoSQL databases such as MongoDB.</li>
+                
+                    <li><strong>Version Control & CI/CD:</strong> Proficient with Git, Jenkins, and Docker for seamless project deployment and continuous integration.</li>
+                </ul>
+
+                <h3>Experience</h3>
+                <p>Amar has worked on a wide variety of projects, ranging from enterprise-level applications to dynamic web portals. He is adept at collaborating with cross-functional teams, delivering software solutions that meet client needs, and optimizing performance and security. His keen attention to detail and commitment to delivering quality code has made him a reliable developer in his field.</p>
+
+                <h3>Personal Interests</h3>
+                <p>When not coding, Amar enjoys learning about new technologies, contributing to open-source projects, and mentoring aspiring developers. He believes in continuous learning and strives to stay updated with the latest trends in the tech industry.</p>
+            </section>
+        </main>
+
+        <main class="main projects">
+            <section class="projects-info" id="projects">
+                <h2>Featured Projects</h2>
+
+                <div class="project">
+                    <h3>1. E-commerce Platform</h3>
+                    <p>A full-stack e-commerce application built using Java, Spring Boot, and React. This platform allows users to browse products, add items to their cart, and complete transactions securely. The back-end features RESTful APIs, integrated with MySQL for data management, and the front-end is built with responsive design principles.</p>
+                    <a href="https://github.com/example/ecommerce-project" target="_blank" class="project-link">View on GitHub</a>
+                </div>
+
+                <div class="project">
+                    <h3>2. Task Management System</h3>
+                    <p>This task management tool was developed to help teams manage and track their tasks efficiently. Built with Java, Spring Boot, Hibernate, and Angular, it features user authentication, task assignment, and a reporting dashboard. The application uses PostgreSQL for data persistence and integrates CI/CD pipelines for smooth deployment.</p>
+                    <a href="https://github.com/example/task-management-system" target="_blank" class="project-link">View on GitHub</a>
+                </div>
+
+                <div class="project">
+                    <h3>3. Social Media Application</h3>
+                    <p>A scalable social media application with microservices architecture, implemented using Java, Spring Cloud, and Docker. It allows users to create profiles, post updates, and interact with other users. Deployed on AWS with Kubernetes for container orchestration, this project showcases Amar's expertise in distributed systems.</p>
+                    <a href="https://github.com/example/social-media-app" target="_blank" class="project-link">View on GitHub</a>
+                </div>
+                
+            </section>
+        </main>
+
+        <main class="main skills">
+            <section class="skills-info" id="skills">
+                <h2>Technical Skills</h2>
+
+                <div class="skill-category">
+                    <h3>Front-end Development</h3>
+                    <ul>
+                        <li>HTML5, CSS3</li>
+                        <li>JavaScript, TypeScript</li>
+                        <li>React, Angular</li>
+                        <li>Bootstrap, Material UI</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Back-end Development</h3>
+                    <ul>
+                        <li>Java, Spring Boot</li>
+                        <li>RESTful APIs, Microservices</li>
+                        <li>Hibernate, JPA</li>
+                        <li>Node.js (optional for full stack)</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Database Management</h3>
+                    <ul>
+                        <li>MySQL, PostgreSQL</li>
+                        <li>MongoDB (NoSQL)</li>
+                        <li>Oracle Database</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>DevOps & Tools</h3>
+                    <ul>
+                        <li>Git, GitHub</li>
+                        <li>Jenkins, CI/CD</li>
+                        <li>Docker, Kubernetes</li>
+                        <li>Maven, Gradle</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Cloud & Hosting</h3>
+                    <ul>
+                        <li>AWS (EC2, S3, Lambda)</li>
+                        <li>Heroku, Netlify</li>
+                        <li>Containerization with Docker</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <main class="main contact">
+            <section class="contact-info" id="contact">
+                <h2>Get in Touch</h2>
+                <p>If you have any questions, project inquiries, or just want to say hello, feel free to contact me using the form below or via email.</p>
+                
+                <!-- Contact Form -->
+                <form action="https://formsubmit.co/YOUR_EMAIL" method="POST" class="contact-form">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required  placeholder="Enter your Name">
+                    
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required  placeholder="Enter your Email">
+                    
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="6" required placeholder="Enter your Message"></textarea>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+                <br>
+                <h3>Contact Details</h3>
+                <ul class="contact-details">
+                    <li>Email: <a href="mailto:amarnath2893@gmail.com">amarnath2893@gmail.com</a></li>
+                    <li>LinkedIn: <a href="https://linkedin.com/in/amarnathyadav" target="_blank">linkedin.com/in/amarnathyadav</a></li>
+                </ul>
+            </section>
+        </main>
+
+
+        <footer class="footer">
+            <p> © 2024 Amar Nath Yadav. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
